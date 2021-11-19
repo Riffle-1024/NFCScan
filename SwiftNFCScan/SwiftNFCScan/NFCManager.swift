@@ -23,7 +23,6 @@ class NFCManager: NSObject, NFCNDEFReaderSessionDelegate {
     var scanSuccessBlock:NFCScanSuccessBlock?
     var scanErrorBlock:NFCScanErrorBlock?
     var session:NFCNDEFReaderSession?
-    var currentTag:NFCISO7816Tag?
     static let shared = NFCManager()
     
     class func isSupportsNFCReading()->NFCSupportsStatus{
