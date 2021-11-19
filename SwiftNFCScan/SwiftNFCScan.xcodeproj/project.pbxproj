@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7062422746534E0059BBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062412746534E0059BBC3 /* AppDelegate.swift */; };
+		FB7062442746534E0059BBC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062432746534E0059BBC3 /* SceneDelegate.swift */; };
+		FB7062462746534E0059BBC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062452746534E0059BBC3 /* ViewController.swift */; };
+		FB7062492746534E0059BBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7062472746534E0059BBC3 /* Main.storyboard */; };
+		FB70624B2746534F0059BBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB70624A2746534F0059BBC3 /* Assets.xcassets */; };
+		FB70624E2746534F0059BBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB70624C2746534F0059BBC3 /* LaunchScreen.storyboard */; };
+		FB7062592746534F0059BBC3 /* SwiftNFCScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062582746534F0059BBC3 /* SwiftNFCScanTests.swift */; };
+		FB7062632746534F0059BBC3 /* SwiftNFCScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062622746534F0059BBC3 /* SwiftNFCScanUITests.swift */; };
+		FB7062652746534F0059BBC3 /* SwiftNFCScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062642746534F0059BBC3 /* SwiftNFCScanUITestsLaunchTests.swift */; };
+		FB7062722746537F0059BBC3 /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7062712746537F0059BBC3 /* NFCManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7062552746534F0059BBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7062362746534D0059BBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB70623D2746534D0059BBC3;
+			remoteInfo = SwiftNFCScan;
+		};
+		FB70625F2746534F0059BBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7062362746534D0059BBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB70623D2746534D0059BBC3;
+			remoteInfo = SwiftNFCScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB70623E2746534D0059BBC3 /* SwiftNFCScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNFCScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7062412746534E0059BBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB7062432746534E0059BBC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB7062452746534E0059BBC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7062482746534E0059BBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB70624A2746534F0059BBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB70624D2746534F0059BBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB70624F2746534F0059BBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7062542746534F0059BBC3 /* SwiftNFCScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNFCScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7062582746534F0059BBC3 /* SwiftNFCScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNFCScanTests.swift; sourceTree = "<group>"; };
+		FB70625E2746534F0059BBC3 /* SwiftNFCScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNFCScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7062622746534F0059BBC3 /* SwiftNFCScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNFCScanUITests.swift; sourceTree = "<group>"; };
+		FB7062642746534F0059BBC3 /* SwiftNFCScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNFCScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB7062712746537F0059BBC3 /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB70623B2746534D0059BBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7062512746534F0059BBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70625B2746534F0059BBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7062352746534D0059BBC3 = {
+			isa = PBXGroup;
+			children = (
+				FB7062402746534D0059BBC3 /* SwiftNFCScan */,
+				FB7062572746534F0059BBC3 /* SwiftNFCScanTests */,
+				FB7062612746534F0059BBC3 /* SwiftNFCScanUITests */,
+				FB70623F2746534D0059BBC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB70623F2746534D0059BBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB70623E2746534D0059BBC3 /* SwiftNFCScan.app */,
+				FB7062542746534F0059BBC3 /* SwiftNFCScanTests.xctest */,
+				FB70625E2746534F0059BBC3 /* SwiftNFCScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7062402746534D0059BBC3 /* SwiftNFCScan */ = {
+			isa = PBXGroup;
+			children = (
+				FB7062412746534E0059BBC3 /* AppDelegate.swift */,
+				FB7062432746534E0059BBC3 /* SceneDelegate.swift */,
+				FB7062452746534E0059BBC3 /* ViewController.swift */,
+				FB7062712746537F0059BBC3 /* NFCManager.swift */,
+				FB7062472746534E0059BBC3 /* Main.storyboard */,
+				FB70624A2746534F0059BBC3 /* Assets.xcassets */,
+				FB70624C2746534F0059BBC3 /* LaunchScreen.storyboard */,
+				FB70624F2746534F0059BBC3 /* Info.plist */,
+			);
+			path = SwiftNFCScan;
+			sourceTree = "<group>";
+		};
+		FB7062572746534F0059BBC3 /* SwiftNFCScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7062582746534F0059BBC3 /* SwiftNFCScanTests.swift */,
+			);
+			path = SwiftNFCScanTests;
+			sourceTree = "<group>";
+		};
+		FB7062612746534F0059BBC3 /* SwiftNFCScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7062622746534F0059BBC3 /* SwiftNFCScanUITests.swift */,
+				FB7062642746534F0059BBC3 /* SwiftNFCScanUITestsLaunchTests.swift */,
+			);
+			path = SwiftNFCScanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB70623D2746534D0059BBC3 /* SwiftNFCScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7062682746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScan" */;
+			buildPhases = (
+				FB70623A2746534D0059BBC3 /* Sources */,
+				FB70623B2746534D0059BBC3 /* Frameworks */,
+				FB70623C2746534D0059BBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNFCScan;
+			productName = SwiftNFCScan;
+			productReference = FB70623E2746534D0059BBC3 /* SwiftNFCScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7062532746534F0059BBC3 /* SwiftNFCScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70626B2746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScanTests" */;
+			buildPhases = (
+				FB7062502746534F0059BBC3 /* Sources */,
+				FB7062512746534F0059BBC3 /* Frameworks */,
+				FB7062522746534F0059BBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7062562746534F0059BBC3 /* PBXTargetDependency */,
+			);
+			name = SwiftNFCScanTests;
+			productName = SwiftNFCScanTests;
+			productReference = FB7062542746534F0059BBC3 /* SwiftNFCScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB70625D2746534F0059BBC3 /* SwiftNFCScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70626E2746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScanUITests" */;
+			buildPhases = (
+				FB70625A2746534F0059BBC3 /* Sources */,
+				FB70625B2746534F0059BBC3 /* Frameworks */,
+				FB70625C2746534F0059BBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7062602746534F0059BBC3 /* PBXTargetDependency */,
+			);
+			name = SwiftNFCScanUITests;
+			productName = SwiftNFCScanUITests;
+			productReference = FB70625E2746534F0059BBC3 /* SwiftNFCScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7062362746534D0059BBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FB70623D2746534D0059BBC3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FB7062532746534F0059BBC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FB70623D2746534D0059BBC3;
+					};
+					FB70625D2746534F0059BBC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FB70623D2746534D0059BBC3;
+					};
+				};
+			};
+			buildConfigurationList = FB7062392746534D0059BBC3 /* Build configuration list for PBXProject "SwiftNFCScan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7062352746534D0059BBC3;
+			productRefGroup = FB70623F2746534D0059BBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB70623D2746534D0059BBC3 /* SwiftNFCScan */,
+				FB7062532746534F0059BBC3 /* SwiftNFCScanTests */,
+				FB70625D2746534F0059BBC3 /* SwiftNFCScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB70623C2746534D0059BBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70624E2746534F0059BBC3 /* LaunchScreen.storyboard in Resources */,
+				FB70624B2746534F0059BBC3 /* Assets.xcassets in Resources */,
+				FB7062492746534E0059BBC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7062522746534F0059BBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70625C2746534F0059BBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB70623A2746534D0059BBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7062462746534E0059BBC3 /* ViewController.swift in Sources */,
+				FB7062722746537F0059BBC3 /* NFCManager.swift in Sources */,
+				FB7062422746534E0059BBC3 /* AppDelegate.swift in Sources */,
+				FB7062442746534E0059BBC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7062502746534F0059BBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7062592746534F0059BBC3 /* SwiftNFCScanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70625A2746534F0059BBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7062632746534F0059BBC3 /* SwiftNFCScanUITests.swift in Sources */,
+				FB7062652746534F0059BBC3 /* SwiftNFCScanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7062562746534F0059BBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB70623D2746534D0059BBC3 /* SwiftNFCScan */;
+			targetProxy = FB7062552746534F0059BBC3 /* PBXContainerItemProxy */;
+		};
+		FB7062602746534F0059BBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB70623D2746534D0059BBC3 /* SwiftNFCScan */;
+			targetProxy = FB70625F2746534F0059BBC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7062472746534E0059BBC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7062482746534E0059BBC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB70624C2746534F0059BBC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70624D2746534F0059BBC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7062662746534F0059BBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7062672746534F0059BBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7062692746534F0059BBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYDR2YFZ4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftNFCScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB70626A2746534F0059BBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYDR2YFZ4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftNFCScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB70626C2746534F0059BBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAW9U3UW5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan.SwiftNFCScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNFCScan.app/SwiftNFCScan";
+			};
+			name = Debug;
+		};
+		FB70626D2746534F0059BBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAW9U3UW5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan.SwiftNFCScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftNFCScan.app/SwiftNFCScan";
+			};
+			name = Release;
+		};
+		FB70626F2746534F0059BBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAW9U3UW5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan.SwiftNFCScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNFCScan;
+			};
+			name = Debug;
+		};
+		FB7062702746534F0059BBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAW9U3UW5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfc.scan.SwiftNFCScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftNFCScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7062392746534D0059BBC3 /* Build configuration list for PBXProject "SwiftNFCScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7062662746534F0059BBC3 /* Debug */,
+				FB7062672746534F0059BBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7062682746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7062692746534F0059BBC3 /* Debug */,
+				FB70626A2746534F0059BBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70626B2746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70626C2746534F0059BBC3 /* Debug */,
+				FB70626D2746534F0059BBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70626E2746534F0059BBC3 /* Build configuration list for PBXNativeTarget "SwiftNFCScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70626F2746534F0059BBC3 /* Debug */,
+				FB7062702746534F0059BBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7062362746534D0059BBC3 /* Project object */;
+}
