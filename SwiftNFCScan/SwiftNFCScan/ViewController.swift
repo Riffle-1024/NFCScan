@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     var nfcManager:NFCManager?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.nfcManager = NFCManager.init()
         let scanBtn:UIButton = UIButton.init(type: UIButton.ButtonType.custom)
         scanBtn.frame = CGRect(x: 100, y: 60, width: 120, height: 30)
         scanBtn.setTitle("扫描NFC", for: UIControl.State.normal)
@@ -25,7 +24,7 @@ class ViewController: UIViewController {
         scanBtn.addTarget(self, action:#selector(ViewController.scanBtnClick), for: UIControl.Event.touchUpInside)
     }
     @objc func scanBtnClick() {
-        self.nfcManager?.startScanNFC(successBlock: { ndefMessage in
+        NFCManager.shared.startScanNFC(successBlock:  { ndefMessage in
             
         }, errorBlock: { error in
             
